@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.container {
+    background: #E5E5E5;
+    padding: 91px 150px 173px 124px;
+}
+
+.title {
+font-weight: 700;
+font-size: 55px;
+margin-bottom: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article {
+    font-size: 24px;
+    margin-right: 190px;
+}
+
+
+aside img{
+    margin-top: 50px;
+    width: 314px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 94px; 
+    align-items: center;
+}
+
+.card {
+    width: 150px;
+}
+.card h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 830px) {
+    .container {
+        padding: 56px 87px 180px 72px;
+    }
+    
+    .title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    }
+    
+    
+    article {
+        font-size: 14px;
+        margin-right: 110px;
+    }
+    
+
+
+    aside img{
+        width: 181px;
+        height: 181px;
+    }
+
+    footer {
+        justify-content: flex-start;  
+        margin-top: 70px; 
+        align-items: flex-start;
+    }
+    
+    .card {
+        width: 87px;
+        margin-right: 95px;
+    }
+    .card h4 {
+        font-size: 15px;
+    }
+    
+    .card p {
+        font-size: 11px;
+    }
+    .photo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    
+.container {
+    padding: 56px 31px 124px 36px;
+}
+
+.title {
+font-size: 26px;
+margin-bottom: 8px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    font-size: 12px;
+    margin: auto;
+}
+
+
+aside img{
+    width: 146px;
+    height: 146px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 59px; 
+    align-items: center;
+}
+
+.card {
+    width: 86px;
+    margin-right: 33px;
+    padding-bottom: 33px;
+}
+.card h4 {
+    font-size: 12px;
+}
+
+.card p {
+    font-size: 10px;
+}
+}
